@@ -3,8 +3,9 @@ from botocore.exceptions import ClientError
 import logging
 from io import StringIO
 import pandas as pd
+import test.e2e.utilities.path_utils as path_utils
 
-data_path = '/data'
+data_path = path_utils.add_path_to_project_path('data')
 
 
 def get_s3_client():
