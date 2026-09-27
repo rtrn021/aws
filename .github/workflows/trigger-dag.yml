@@ -19,4 +19,4 @@ jobs:
 
       - name: Trigger CodePipeline
         run: |
-          aws codepipeline start-pipeline-execution --name testpip
+          aws codepipeline start-pipeline-execution --name test-github-trigger
