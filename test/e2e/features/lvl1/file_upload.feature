@@ -2,9 +2,8 @@
 Feature: stag-csv-to-raw-parquet
   # Enter feature description here
 
-  @test2
-  @NBA-stag
-  Scenario: NBA
+  @upload
+  Scenario: upload
     Given Lets Start
-    When I upload "days" to "rt-stag"
+    When I upload "iris" to "rt-stag"
 

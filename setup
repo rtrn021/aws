@@ -1,3 +1,15 @@
 1) choose/create project interpreter (python3)
 2) chose pytest as test runner > preferences/tools/python integrated tools
 3) install packages > pytest/pytest-bdd/boto3 etc
+
+
+
+
+
+
+
+
+
+
+Error / Solution
+pyspark Py4JJavaError issue >> https://anaconda.org/cyclus/java-jdk (from terminal run >>> conda install -c cyclus java-jdk)
